@@ -1,5 +1,5 @@
 {
-    "name":"teraxis/concord-sdk-php",
+    "name": "teraxis/concord-sdk-php",
     "type": "library",
     "description": "SDK for ConcordPay",
     "keywords": ["concordpay","concord","pay"],
@@ -14,7 +14,7 @@
         }
     ],
     "require":{
-        "php":">=5.3.0"
+        "php": "^5.6 || ^7.0 || ^8.0"
     },
     "autoload":{
         "classmap":[
