@@ -4,7 +4,7 @@
     "description": "SDK for ConcordPay",
     "keywords": ["concordpay","concord","pay"],
     "homepage": "https://github.com/teraxis/concord-sdk-php",
-    "license": "OSL 3.0",
+    "license": "OSL-3.0",
     "authors": [
         {
             "name": "ConcordPay",
