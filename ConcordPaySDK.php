@@ -315,7 +315,7 @@ class ConcordPaySDK
      * @param array $params
      * @throws \InvalidArgumentException
      */
-    private function prepare($action, array $params)
+    public function prepare($action, array $params)
     {
         $this->action = $action;
 
