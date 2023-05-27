@@ -138,6 +138,16 @@ class ConcordPaySDK
         return $this->buildForm();
     }
 
+        /**
+     * @param $fields
+     * @return string
+     */
+    public function params($action, array $params)
+    {
+        $this->prepare($action, $params);
+        return $this->params;
+    }
+
     /**
      * @param $fields
      * @return string
@@ -315,7 +325,7 @@ class ConcordPaySDK
      * @param array $params
      * @throws \InvalidArgumentException
      */
-    public function prepare($action, array $params)
+    private function prepare($action, array $params)
     {
         $this->action = $action;
 
