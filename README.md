@@ -47,20 +47,21 @@ For Example:
 
 ## Available methods are the same as in ConcordPay Documentation
 
-| Method | Operation |
-| --- | --- |
-| purchase | Payment on the payment processing page |
-| recPayment | Recurrent payments RecPayment (payment by token) |
-| verify | Verify Operation |
-| reversal | Operation Reversal |
-| complete | Operation Complete |
-| check | Operation Check |
-| p2pCredit | Operation P2PCredit |
-| getBalance | Get Balance Operation (GetBalance) |
-| p2pDebit | Operation P2PDebit |
-| purchaseOnMerchant | Operation PurchaseOnMerchant |
-| getMasterpassToken | Getting a token for Masterpass |
-| purchaseMasterpass | Making a payment through Masterpass |
+| Method | Operation                                         |
+| --- |---------------------------------------------------|
+| params | Return array of parameters                     |
+| purchase | Payment on the payment processing page            |
+| recPayment | Recurrent payments RecPayment (payment by token)  |
+| verify | Verify Operation                                  |
+| reversal | Operation Reversal                                |
+| complete | Operation Complete                                |
+| check | Operation Check                                   |
+| p2pCredit | Operation P2PCredit                               |
+| getBalance | Get Balance Operation (GetBalance)                |
+| p2pDebit | Operation P2PDebit                                |
+| purchaseOnMerchant | Operation PurchaseOnMerchant                      |
+| getMasterpassToken | Getting a token for Masterpass                    |
+| purchaseMasterpass | Making a payment through Masterpass               |
 | confirm3DS | The confirmation of 3DS Verification Verification |
 
     $sdk   = new ConcordPaySDK(PRIVATE_KEY);
